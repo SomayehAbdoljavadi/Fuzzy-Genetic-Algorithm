@@ -1,0 +1,7 @@
+function [ fcn_value ] = fcn_value( popu,x,y )
+fcn_value(:,1)= gauss_mf(x(:), Rule(:,1));
+fcn_value(:,2)= gauss_mf(y(:), Rule(:,2));
+
+
+end
+
